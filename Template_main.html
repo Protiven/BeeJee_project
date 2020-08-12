@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="view/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="view/style/style.css">
+        <link rel="stylesheet" href="view/style/style.css">
+        <script src="view/bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--Start Header-->
+        <header class="header-area">
+            <div class = "section">
+                <div class = "row header" style = "text-align: center;">              
+                    <div class="col" style="background-color: rgb(247, 247, 252); text-align: center;">
+                        <a href="#" style="text-decoration: none; color: black;">
+                            <h1 class="text-center">List of tasks</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+       
+        <!--Start Main Content-->
+        <div class="blog-area section" ></div>
+            <div class = "row main_section">
+                <!--Start SideBar-->
+                <div id = "sidebar" class = "col-sm-3 " style = "padding: 30px; background-color: rgb(245, 245, 245);" >
+                    <!--For Admin-->
+                    <form action="">
+                        <div class="form-group">
+                          <label for="email">Login:</label>
+                          <input type="email" class="form-control" placeholder="Enter email" id="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                        </div>
+                        <div class="form-group form-check">
+                          <!--<label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                          </label>-->
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                
+                    <!--New Task-->
+                    <a href="#" style = "font-size: 20px;">New Task</a>
+                </div>
+                
+                <!--Section with the posts-->
+                <div id = "main_content" class = "col-sm-9" style = " padding: 50px;">
+                    <div class="container" style="padding: 30px; padding-top: 0px;">
+                        <div class = "row" style="text-align: center;">
+                            <div class="col-3 sort_item">
+                                Sort by
+                            </div>
+                            <div class="col-3 sort_item">
+                                <a href = "#"><img src="view/bootstrap/icons/sort-alpha-up.svg" alt="" width="24" height="24" title="Bootstrap"></a>
+                                <span>Email</span>
+                                <a href = "#"><img src="view/bootstrap/icons/sort-alpha-down.svg" alt="" width="24" height="24" title="Bootstrap"></a>
+                            </div>
+                            <div class="col-3 sort_item">
+                                <a href = "#"><img src="view/bootstrap/icons/sort-alpha-up.svg" alt="" width="24" height="24" title="Bootstrap"></a>
+                                <span>User</span>
+                                <a href = "#"><img src="view/bootstrap/icons/sort-alpha-down.svg" alt="" width="24" height="24" title="Bootstrap"></a>
+                            </div>
+                            <div class="col-3 sort_item">
+                                <a href = "#"><img src="view/bootstrap/icons/sort-numeric-up.svg" alt="" width="24" height="24" title="Bootstrap"></a>
+                                <span>Stat</span>
+                                <a href = "#"><img src="view/bootstrap/icons/sort-numeric-down.svg" alt="" width="24" height="24" title="Bootstrap"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Template Single Post-->
+                    <div class = "single-blog-post my_single">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col user_name"> protiven, protiven98@gmail.com</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text_style">
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;идеальный или реальный предмет сознательного или бессознательного стремления субъекта; \
+                                        конечный результат, на который преднамеренно направлен процесс[1]; 
+                                        «доведение возможности до её полного завершения»[2]; осознанный образ предвосхищаемого результата.[3
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="text-align: right;">    
+                                <a href="#" style="padding: 15px; padding-right: 20px">editing</a>
+                                <label class="form-check-label" style="padding: 15px;">
+                                    <input  class="form-check-input"  type="checkbox"> 
+                                    execution status
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class = "single-blog-post my_single">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col user_name"> protiven, protiven98@gmail.com</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text_style">
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;идеальный или реальный предмет сознательного или бессознательного стремления субъекта; \
+                                        конечный результат, на который преднамеренно направлен процесс[1]; 
+                                        «доведение возможности до её полного завершения»[2]; осознанный образ предвосхищаемого результата.[3
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="text-align: right;">    
+                                <a href="#" style="padding: 15px; padding-right: 20px">editing</a>
+                                <label class="form-check-label" style="padding: 15px;">
+                                    <input  class="form-check-input"  type="checkbox"> 
+                                    execution status
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Padding panel-->
+                    <div>
+                        <nav aria-label="Page navigation-center example">
+                            <ul class="pagination mt-50">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">10</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Start Footer-->
+        <footer class="footer-area">
+            <div class = "section">
+                <div class = "row footer">
+                    <div class = "col" style="background-color:ghostwhite;"><p class="text-center" style="font-size: 18px; font-family: cursive; padding: 10px;">Copyright ...</p></div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
